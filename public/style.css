@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #14213D;
+}
+.container-header{
+    width: 100vw;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+header{
+    height: 10vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #14213D;
+    text-shadow: 2px 2px 1px black;
+}
+header>nav>ul{
+    width: 55vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+header>nav>ul>li{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+    text-shadow: 1px 1px 1px black;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: #FCA311;
+}
+.home {
+    height: 100vh;
+}
+.home h2{
+    width: 60%;
+    height: 20vh;
+    font-size: 2.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picture-home{
+    width: 100vw;
+    height: 90vh;
+    background-image: url(./cowork.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-coworkings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    width : 80vw;
+    height: 5vh;
+    color: #14213D;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px black;
+}
+.container-coworking{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    color: #FCA311;
+    
+}
+.coworkings{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+.coworking{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 30vh;
+    width: 30vw;
+}
+.coworking button{
+    width: 5vw;
+}
+.container-create-coworking{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container-create-coworking>form{
+    height: 65vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.7px solid black;
+    box-shadow: 2px 3px 8px black;
+    background-color: #E5E5E5;
+}
+.coworking-form{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.create-box{
+    width: 15vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.container-register{
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container-register>form{
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.7px solid black;
+    box-shadow: 2px 3px 8px black;
+    background-color: #E5E5E5;
+}
+.form-register{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-details{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    height: 50vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.container-users{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-user{
+    height: 50vh;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.rôles{
+    display: inline-block;
+}
